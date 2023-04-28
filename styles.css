@@ -1,0 +1,218 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Orbitron', sans-serif;
+    color: #F2B90F;
+}
+
+
+/* navbar section */
+
+.chapters{
+    text-align: left;
+    margin: 7% 15%;
+}
+
+.chapter-header{
+    text-align: left;
+    margin: 7% 15%;
+    padding: 20px;
+}
+.chapter-one{
+    text-align: left;
+    margin: 7% 15%;
+}
+
+.nav-link {
+    font-family: 'Orbitron', sans-serif;
+     color: #F2A413; /* Lighter grayish-yellow color */
+}
+
+.nav-link:hover {
+    color: #F2CD13; /* Lighter shade of grayish-yellow when hovering */
+}
+
+/* Body background image */
+html, body {
+    height: 65%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 20px solid black;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  background-image: url('https://cdn.discordapp.com/attachments/1059023767436795954/1093481404798615592/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #0D0D0D;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #BF2B0A;
+    border-radius: 10px;
+}
+
+
+
+.top-bar {
+    background-color: #050403;
+    height: 20px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar-text {
+    color: #F2A413;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.content {
+    margin-top: 50px; /* Adjust the margin as needed to prevent overlap */
+}
+
+
+/* Floating text styles */
+#floating-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px 0px;
+}
+
+
+#floating-text .small-text {
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    color: #F2B90F;
+    text-align: center;
+
+}
+
+#floating-text .big-text {
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: #F2B90F;
+}
+
+/* Paragraph on the left side */
+.left-paragraph {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    font-family: 'Montserrat', sans-serif;
+    color: #F2B90F;
+    text-align: left;
+    max-width: 200px;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #0D0D0D;
+  border-top: 1px solid #BF2B0A;
+  color: #F2A413;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 10px 0;
+  height: 60px; /* adjust the height as needed */
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-links li {
+  margin: 0 10px;
+}
+
+.footer-links li:first-child {
+  margin-left: 0;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  color: #F2A413;
+  padding: 10px;
+}
+
+.footer-links a:hover {
+  color: #F2CD13;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content p {
+  color: #F2A413;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+
+/* Color Theme Swatches in Hex */
+.Fashion-1-hex { color: #F2CD13; }
+.Fashion-2-hex { color: #F2B90F; }
+.Fashion-3-hex { color: #F2A413; }
+.Fashion-4-hex { color: #BF2B0A; }
+.Fashion-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Fashion-1-rgba { color: rgba(242, 205, 19, 1); }
+.Fashion-2-rgba { color: rgba(242, 185, 14, 1); }
+.Fashion-3-rgba { color: rgba(242, 164, 19, 1); }
+.Fashion-4-rgba { color: rgba(191, 42, 9, 1); }
+.Fashion-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Fashion-1-hsla { color: hsla(50, 89, 51, 1); }
+.Fashion-2-hsla { color: hsla(45, 89, 50, 1); }
+.Fashion-3-hsla { color: hsla(39, 89, 51, 1); }
+.Fashion-4-hsla { color: hsla(11, 90, 39, 1); }
+.Fashion-5-hsla { color: hsla(0, 0, 5, 1); }
+
+
+
